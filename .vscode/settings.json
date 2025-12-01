@@ -1,0 +1,20 @@
+{
+    "Lua.diagnostics.globals": [
+        "CS",
+        "xlua",
+        "typeof",
+        "lang",
+        "GameMain",
+        "WorldLua",
+        "Lib",
+        "prints",
+        "getvar"
+    ],
+    "Lua.runtime.version": "Lua 5.3",
+    "Lua.hover.previewFields": 7,
+    "editor.wordWrap": "on",
+    "Lua.completion.workspaceWord": false,
+    "Lua.runtime.unicodeName": true,
+
+
+}

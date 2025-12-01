@@ -1,0 +1,79 @@
+{
+["最后选择索引"]=2,
+["记事本数据"]={
+["note1"]="prints([[\
+\
+全局变量=1\
+print(1)\
+\
+function 中文的函数(参数1,参数2)\
+return 参数1+2+参数2\
+\
+end\
+\
+print(中文的函数(5,4))\
+\
+\
+\
+\
+]])",
+["note5"]="tbTable:OnLeave()\
+tbTable:OnInit()",
+["note3"]="GameMain:GetMod(\"_Event\"):UnRegisterEvent(g_emEvent.AddEnemies,tbTable)\
+GameMain:GetMod(\"_Event\"):RegisterEvent(g_emEvent.AddEnemies , tbTable.ShiJian , tbTable)",
+["note8"]="local ditu=CS.XiaWorld.WorldMgr.Instance.curWorld.map\
+\
+CS.XiaWorld.ThingMgr.Instance:AddItemThing(3,\"Item_HorseFromJY_Wolf\",ditu)",
+["note10"]="\
+CS.XiaWorld.LuaMgr.Instance:DoString([[\
+\
+xlua.private_accessible(CS.GameWatch)\
+xlua.private_accessible(CS.Wnd_Console)\
+print(CS.GameWatch.Instance.Console:TrimExcessLogs())\
+\
+]])\
+CS.GameWatch.Instance.Console:TrimExcessLogs()",
+["note4"]="prints([[\
+\
+function 测试函数()\
+  CS.XiaWorld.LuaMgr.Instance:DoString(\"1\")\
+end\
+function 调试函数(s)\
+  print(debug.traceback(s, 18))\
+end\
+\
+xpcall(测试函数,调试函数)\
+\
+\
+]])",
+["note11"]="prints([[\
+\
+\
+1\
+print(111)\
+ --新版控制台:游戏初始化()\
+--物品查询器:Show()\
+\
+\
+\
+\
+\
+\
+\
+]])",
+["note9"]="xlua.private_accessible(CS.GameWatch)\13\
+xlua.private_accessible(CS.Wnd_Console)\13\
+print(CS.GameWatch.Instance.Console.luatxt)",
+["note7"]="prints([[\
+\
+符咒编辑器:Show()\
+\
+]])",
+["note2"]="CS.XiaWorld.GameEventMgr.Instance:TriggerEvent(34)\13\
+",
+["note6"]="\
+prints([[\
+属性查询器:Show()\
+]])",
+},
+}

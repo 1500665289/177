@@ -1,0 +1,18 @@
+{
+	"Lua.diagnostics.globals": [
+		"lang",
+		"CS",
+		"xlua",
+		"Lib",
+		"GameMain",
+		"WorldLua",
+		"typeof"
+	],
+	"editor.suggest.filterGraceful": false,
+	"editor.snippetSuggestions": "bottom",
+	"editor.wordBasedSuggestions": false,
+	"Lua.runtime.version": "Lua 5.3",
+	"Lua.completion.workspaceWord": false,
+	"Lua.hover.previewFields": 8,
+	"Lua.runtime.unicodeName": true
+}
